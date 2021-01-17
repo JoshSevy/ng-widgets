@@ -5,13 +5,15 @@ import { ViewsRoutingModule } from './views-routing.module';
 
 import { StatisticsComponent } from './statistics/statistics.component';
 import { ViewsHomeComponent } from './views-home/views-home.component';
+import { SharedModule } from '../shared/shared.module';
 
 
 @NgModule({
   declarations: [StatisticsComponent, ViewsHomeComponent],
   imports: [
     CommonModule,
-    ViewsRoutingModule
+    ViewsRoutingModule,
+    SharedModule
   ]
 })
 export class ViewsModule { }
