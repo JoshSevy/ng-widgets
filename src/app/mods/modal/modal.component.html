@@ -2,14 +2,16 @@
   <div class="ui modal visible active" (click)="$event.stopPropagation()">
     <i class="close icon" (click)="onCloseClick()"></i>
       <div class="header">
-        MODAL!
+        <ng-content select="[modalTitle]"></ng-content>
       </div>
       <div class="content">
-        <p>This is the content for the modal window!</p>
+        <ng-content></ng-content>
       </div>
-      <div class="actions">
+      <div class="actions actions-default">
         <button class="ui button" (click)="onCloseClick()">OK</button>
       </div>
-
+      <div class="actions">
+        <ng-content select="[modalFooter]"></ng-content>
+      </div>
   </div>
 </div>
