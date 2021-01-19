@@ -41,7 +41,21 @@
 
 ## About The Project
 
-<!-- [![Product Name Screen Shot][product-screenshot]](https://example.com) -->
+Main Landing Page
+
+![Main Loading Page](.github/assets/segment.png)
+
+Table and Tab Components
+
+![Table Component Page](.github/assets/table.png)
+
+Stats and Item List Components
+
+![Stat Component Page](.github/assets/stats.png)
+
+Modal and Accordion Components
+
+![Modal Component Page](.github/assets/modal.png)
 
 Continuing my fluency with Angular and building a single page application with multiple routes with some fun style elements. Practice makes progress, lets get to learning and building some fun reusable components.
 
